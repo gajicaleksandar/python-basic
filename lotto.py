@@ -1,7 +1,22 @@
+#LOTTO GAME#
+
+
+#############################################
+
+'''
+@author Aleksandar Gajic
+        alexandar0702@gmail.com
+        created date: 12.05.2022
+'''
+
+#############################################
+
+
+import time
 from random import randint as rnd
 
 RANGE = 15
-DRAWS = 6
+DRAWS = 7
 
 def randomise():
 
@@ -18,15 +33,15 @@ def drawing():
     for i in range(DRAWS):
         while True:
             try:
-                number = int(input(f"Please give me a number from 1 to {RANGE}: "))
+                number = int(input(f"Please input number from 1 to {RANGE}: "))
                 if number < 1 or number > RANGE:
-                    print("Outside the RANGE ! Give another number: ")
+                    print("Outside the RANGE! Please input number from 1 to {RANGE}: ")
                 elif number in draws:
-                    print("Number is already drawn ! Give another number: ")
+                    print("Number is already drawn! Please input another number from 1 to {RANGE}: ")
                 else:
                     break
             except:
-                print("Give man integer number!")
+                print("Only integer numbers are allowed!")
         draws.append(number) 
     return draws
 
@@ -42,9 +57,16 @@ for draw in draws:
     if draw in rands:
         hits+=1
         hitlist.append(draw)
-
-
-print(f"Random list: {rands}")
-print(f"Drawing list: {draws}")
-print(f"You hit {hits} times !")
-print(f"The hitlist: {hitlist}")
+        
+print("You are finished!")
+print("Loading... Please Wait!")
+time.sleep(2)
+print(f"Lotto numbers: {rands}")
+print(f"Your numbers: {draws}")
+time.sleep(2)
+if hits == 0:
+    print("You didn't hit number! ")
+elif hits == 1:
+    print("You hit 1 number !")
+    print(f"One hitted number: {hitlist}")
+else: print(f"You hit {hits} numbers !"), print(f"Hitted numbers: {hitlist}")

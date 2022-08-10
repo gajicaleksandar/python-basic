@@ -1,6 +1,6 @@
 #UPGRADE COMPUTER CONGIGURATION WITH FILTER#
 
-############################################
+#############################################
 
 '''
 @author Aleksandar Gajic
@@ -8,7 +8,7 @@
         created date: 12.05.2022
 '''
 
-############################################
+#############################################
 
 from http.server import executable
 import time
