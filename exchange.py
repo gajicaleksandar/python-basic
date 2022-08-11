@@ -29,7 +29,3 @@ if currency == "eur":
 
 else:
     print(total_usd)
-
-
-
-    #    DONE   #

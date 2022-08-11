@@ -58,6 +58,7 @@ for draw in draws:
         hits+=1
         hitlist.append(draw)
         
+        
 print("You are finished!")
 print("Loading... Please Wait!")
 time.sleep(2)

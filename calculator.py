@@ -19,6 +19,3 @@ print("Second number?")
 b = int(input())
 
 print("Result is: ", a + b) 
-
-
-    #    DONE   #

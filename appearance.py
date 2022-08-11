@@ -25,6 +25,3 @@ if my_years >= login_years:
     print("Thanks for login!")
 else:
     print("Sorry! But you cannot register because you are under 18 years old.")
-
-
-    #    DONE   #

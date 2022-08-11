@@ -114,6 +114,3 @@ print("The nearest store is in Belgrade: 'Tech shop' Belgrade 11000, +3816256789
 time.sleep(1)
 print("You have finished, Thank you for searching!")
 print("=======================")
-
-
-    #    DONE   #
