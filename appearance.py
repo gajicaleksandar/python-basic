@@ -12,6 +12,7 @@
 
 login_years = 18
 
+
 print ("Set you appearance")
 
 input_field = input("Male or female (male/female)?")

@@ -6,7 +6,7 @@
 '''
 @author Aleksandar Gajic
         alexandar0702@gmail.com
-        created date: 12.05.2022
+        created date: 09.08.2022
 '''
 
 #############################################
@@ -58,7 +58,7 @@ for draw in draws:
         hits+=1
         hitlist.append(draw)
         
-        
+
 print("You are finished!")
 print("Loading... Please Wait!")
 time.sleep(2)
