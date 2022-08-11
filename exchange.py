@@ -10,8 +10,10 @@
 
 #############################################
 
+
 eur = 118 #rsd#
 usd = 115 #rsd#
+
 
 print ("| WELCOME TO THE EXCHANGE |")
 

@@ -15,8 +15,10 @@
 import time
 from random import randint as rnd
 
+
 RANGE = 15
 DRAWS = 7
+
 
 def randomise():
 
